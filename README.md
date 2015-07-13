@@ -1,5 +1,5 @@
 # goeuro
-Java Task for goeuro company
+Java Task for goeuro
 
 
 I've used different libraries:
