@@ -14,5 +14,5 @@ The output of the computation is stored in the "data.csv" file in the main direc
 
 Tested with:
 
-Java(TM) SE Runtime Environment (build 1.8.0_20-b26)
-Java HotSpot(TM) 64-Bit Server VM (build 25.20-b23, mixed mode)
+- Java(TM) SE Runtime Environment (build 1.8.0_20-b26)
+- Java HotSpot(TM) 64-Bit Server VM (build 25.20-b23, mixed mode)
