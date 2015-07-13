@@ -21,7 +21,8 @@ public class Client {
 		RequestAPI request = new RequestAPI("http://api.goeuro.com/api/v2/position/suggest/en/" + arg);
 		ResponseAPI response = request.send();
 		List<Data> data = response.parse();
-		CSVFile.createFile(data);
+		if(data.size() > 0)		
+			CSVFile.createFile(data);
 	}
 
 }
