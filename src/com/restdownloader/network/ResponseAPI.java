@@ -2,20 +2,34 @@ package com.restdownloader.network;
 
 import java.util.List;
 import java.util.Vector;
-
 import org.json.JSONArray;
 import org.json.JSONObject;
-
 import com.restdownloader.parsing.Data;
 
+
+/**
+ * The Class that represents the response from the API.
+ */
 public class ResponseAPI {
 
+	/** The json from the API*/
 	private JSONArray json;
 
+	
+	/**
+	 * Instantiates a new response api.
+	 *
+	 * @param data the data
+	 */
 	public ResponseAPI(String data) {
 		this.json = new JSONArray(data);
 	}
 
+	/**
+	 * Parses the json and return a List of Java Beans.
+	 *
+	 * @return list of Java Beans
+	 */
 	public List<Data> parse() {
 
 		List<Data> list = new Vector<Data>();
